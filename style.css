@@ -1,0 +1,18 @@
+body{
+    background-color:honeydew;
+}
+h1{
+    font-family: monospace;
+}
+
+.imagem-perfil{
+    border-radius: 100%;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+strong{
+    font-style: italic;
+}
