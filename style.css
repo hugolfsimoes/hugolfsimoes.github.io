@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 body{
     background-color:honeydew;
   
 }
 h1{
+    font-size: 40px;
     font-family: monospace;
 }
 .div-cabecalho {
@@ -18,10 +21,23 @@ h1{
     padding: 25px;
 
 }
+.imagem-linkedin{
+    width: 50px;
+    padding: 25px;
+}
+.imagem-linkedin:hover{
+    width: 75px;
+}
+.imagem-github{
+    width: 50px;
+    padding: 25px;
+}
+.imagem-github:hover{
+    width: 75px;
+}
+
 
 .lista-menu{
-    text-align: center;
-    color: black;
     position: absolute;
     top: 200px;
     right: 200px;
@@ -32,28 +48,51 @@ h1{
     
 }
 .menu a{
+    font-size: 40px;
     text-decoration: none;
     padding: 0 25px 0 25px;
 }
 .menu{
     display: inline-block;
-    font-size: 35px;
+    font-size: 30px;
 }
 .menu a:visited{
     color: black;
 }
 .menu a:hover{
     font-weight: bold;
+    font-size: 40px;
+}
+
+.div-sobre{
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    line-height: 3em;
+}
+h2{
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+
+}
+.div-habilidades li{
+    line-height: 2em;
+    font-size: 16px;
+    
+
+}
+.div-soft{
+    display: inline-block;
+    margin: 35px;
+    left: auto;
+}
+.div-hard{
+    display: inline-block;
+    right: 0;
     
 }
 
 
-p{
-    font-family: 'Montserrat', sans-serif;
-}
 
-
-strong{
-    font-style: italic;
-}
 
