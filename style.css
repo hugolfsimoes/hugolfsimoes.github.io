@@ -84,12 +84,22 @@ h2{
 }
 .div-soft{
     display: inline-block;
-    margin: 35px;
-    left: auto;
+    position: absolute;
+    padding: 25px;
+    margin: 25px;
+    left: 200px;
+
+   
 }
 .div-hard{
     display: inline-block;
-    right: 0;
+    position: absolute;
+    right: 200px;
+    padding: 25px;
+    margin: 25px;
+    
+    
+
     
 }
 
