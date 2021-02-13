@@ -11,19 +11,31 @@ body{
 h1{
     font-size: 40px;
     font-family: monospace;
+    text-align: center;
+    margin-top: 30px;
+   
 }
-.div-cabecalho {
+.div-cabecalho-menu{
     background-color: darkgreen;
     padding: 25px;
+    height: 150px;
 }
 .imagem-perfil{
     border-radius: 100%;
     padding: 25px;
+    position: absolute;
+    top: 35px;
+    display: inline-block;
+    
 
 }
 .imagem-linkedin{
     width: 50px;
     padding: 25px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    
 }
 .imagem-linkedin:hover{
     width: 75px;
@@ -31,6 +43,10 @@ h1{
 .imagem-github{
     width: 50px;
     padding: 25px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    
 }
 .imagem-github:hover{
     width: 75px;
@@ -65,7 +81,8 @@ h1{
 }
 
 .div-sobre{
-    margin: 25px;
+    margin: 200px 100px;
+
     padding: 25px;
     text-align: center;
     line-height: 3em;
@@ -88,8 +105,6 @@ h2{
     padding: 25px;
     margin: 25px;
     left: 200px;
-
-   
 }
 .div-hard{
     display: inline-block;
