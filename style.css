@@ -54,9 +54,10 @@ h1{
 
 
 .lista-menu{
+    padding: 25px;
     position: absolute;
     top: 200px;
-    right: 200px;
+    right: 75px;
     
 }
 .menu:link{
@@ -78,26 +79,33 @@ h1{
 .menu a:hover{
     font-weight: bold;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 .div-sobre{
-    margin: 200px 100px;
+    
 
-    padding: 25px;
+    padding: 200px 100px;
     text-align: center;
     line-height: 3em;
 }
 h2{
-    font-size: 35px;
+    font-size: 40px;
     padding: 25px;
     text-align: center;
 
 }
-.div-habilidades li{
-    line-height: 2em;
-    font-size: 16px;
-    
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
 
+#habilidades{
+    margin-bottom: 30px;
+}
+.div-habilidades li{
+    line-height: 1.5em;
+    font-size: 20px;
 }
 .div-soft{
     display: inline-block;
@@ -112,10 +120,13 @@ h2{
     right: 200px;
     padding: 25px;
     margin: 25px;
-    
-    
-
-    
+}
+strong{
+    color: darkgreen;
+}
+footer{
+    background-color: darkgreen;
+    height: 400px;
 }
 
 
