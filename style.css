@@ -9,7 +9,7 @@ body{
     font-size: 20px;
   
 }
-.div-cabecalho{
+header{
     background-color: darkgreen;
     padding: 25px;
     height: 170px;
@@ -30,13 +30,13 @@ h1{
     top: 50px;
     
 }
-.div-icones{}
+
 .imagem-linkedin{
     width: 50px;
-    padding: 25px;
+    padding: 0px;
     position: relative;
     left: 100px;
-    top: 150px;
+    top: 230px;
     
 }
 .imagem-linkedin:hover{
@@ -44,10 +44,10 @@ h1{
 }
 .imagem-github{
     width: 50px;
-    padding: 25px;
+    padding: 0px;
     position: relative;
-    left: 120px;
-    top: 150px;
+    left: 150px;
+    top: 230px;
     
 }
 .imagem-github:hover{
