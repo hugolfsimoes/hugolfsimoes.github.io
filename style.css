@@ -1,63 +1,67 @@
 *{
     margin: 0;
     padding:0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+   
 }
 body{
     background-color:honeydew;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
   
+}
+.div-cabecalho{
+    background-color: darkgreen;
+    padding: 25px;
+    height: 170px;
 }
 h1{
     font-size: 40px;
     font-family: monospace;
     text-align: center;
-    margin-top: 30px;
-   
+    margin-top:4% ;
+    max-width: 100%;
+    
 }
-.div-cabecalho-menu{
-    background-color: darkgreen;
-    padding: 25px;
-    height: 150px;
-}
+
 .imagem-perfil{
     border-radius: 100%;
     padding: 25px;
     position: absolute;
-    top: 35px;
-    display: inline-block;
+    top: 50px;
     
-
 }
+.div-icones{}
 .imagem-linkedin{
     width: 50px;
     padding: 25px;
-    position: absolute;
-    left: 400px;
-    top: 200px;
+    position: relative;
+    left: 100px;
+    top: 150px;
     
 }
 .imagem-linkedin:hover{
-    width: 75px;
+    width: 55px;
 }
 .imagem-github{
     width: 50px;
     padding: 25px;
-    position: absolute;
-    left: 500px;
-    top: 200px;
+    position: relative;
+    left: 120px;
+    top: 150px;
     
 }
 .imagem-github:hover{
-    width: 75px;
+    width: 55px;
 }
 
 
 .lista-menu{
+    display: inline-block;
     padding: 25px;
     position: absolute;
     top: 200px;
     right: 75px;
+    max-width: 50%;
     
 }
 .menu:link{
@@ -65,27 +69,27 @@ h1{
     
 }
 .menu a{
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding: 0 25px 0 25px;
 }
 .menu{
     display: inline-block;
     font-size: 30px;
+    
 }
 .menu a:visited{
     color: black;
 }
 .menu a:hover{
     font-weight: bold;
-    font-size: 40px;
     text-decoration: underline;
 }
 
 .div-sobre{
     
 
-    padding: 200px 100px;
+    padding: 200px 100px 150px 100px;
     text-align: center;
     line-height: 3em;
 }
@@ -100,35 +104,32 @@ h3{
     font-size: 30px;
 }
 
-#habilidades{
-    margin-bottom: 30px;
+footer h2{
+    background-color: honeydew;
+    margin: auto;
+    margin-bottom: 25px;
 }
 .div-habilidades li{
     line-height: 1.5em;
     font-size: 20px;
+    list-style-type: square;
 }
 .div-soft{
     display: inline-block;
     position: absolute;
-    padding: 25px;
-    margin: 25px;
-    left: 200px;
+    left: 10%;
 }
 .div-hard{
     display: inline-block;
     position: absolute;
-    right: 200px;
-    padding: 25px;
-    margin: 25px;
+    right: 10%;
+    
 }
 strong{
     color: darkgreen;
 }
 footer{
     background-color: darkgreen;
-    height: 400px;
+    min-height: 450px;
 }
-
-
-
 
