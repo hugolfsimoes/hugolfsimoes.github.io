@@ -1,10 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #2b2b2b;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navigation {
   background-color: #2b2b2b;
   color: white;
+  height: 50px;
+}
+
+.navigation ul {
+  margin-top: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  height: 50px;
+}
+
+.navigation li {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 100;
+
 }
 
 .capa {
@@ -13,4 +39,88 @@ body {
 
 .capa span {
   color: #f27609;
+  display: block;
+}
+
+.capa div {
+  display: inline-block;
+  height: 650px;
+}
+
+.profile-pic {
+  width: 40%;
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 350px;
+  border-radius: 100%;
+  margin-top: 100px;
+}
+
+.profile-title {
+  vertical-align: top;
+  width: 59%;
+}
+
+.profile-title h1 {
+  text-transform: uppercase;
+  font-size: 58px;
+  margin-top: 200px;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.profile-title h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -24px;
+}
+
+.main {
+  padding: 80px 180px 80px 100px;
+}
+
+.main img {
+  float: left;
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.main h1 {
+  color: white;
+  font-weight: normal;
+}
+
+.main h2 {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.main h3 {
+  color: #f27609;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.main p {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.caminho {
+  list-style: none;
+  padding-left: 0;
+  color: gray;
+}
+
+.caminho li {
+  display: inline-block;
 }
