@@ -137,4 +137,38 @@ body {
   margin-right: 15px;
   margin-bottom: 15px;
   background-size: contain;
+  overflow: hidden;
+}
+
+.miniatura a {
+  text-decoration: none;
+}
+
+.blackbox {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  padding-top: 120px;
+}
+
+.blackbox:hover {
+  opacity: 0.8;
+}
+
+.blackbox-text {
+  text-align: center;
+}
+
+.blackbox-text h1 {
+  font-size: 16px;
+  color: #f27609;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.blackbox-text h2 {
+  text-transform: none;
+  font-weight: 100;
+  margin-top: 0;
 }
