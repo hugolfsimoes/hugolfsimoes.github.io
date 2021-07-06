@@ -15,8 +15,8 @@ body {
   height: 50px;
 
 
-  animation-name: navegacao;
-  animation-duration: 2s;
+  -webkit-animation-name: navegacao;
+  -webkit-animation-duration: 2s;
 }
 
 .navigation ul {
@@ -68,8 +68,8 @@ body {
   width: 40%;
   text-align: center;
 
-  animation-name: profile-capa;
-  animation-duration: 2s;
+  -webkit-animation-name: profile-capa;
+  -webkit-animation-duration: 2s;
 }
 
 .profile-pic img {
@@ -105,8 +105,8 @@ body {
   padding: 80px 180px 80px 100px;
 
 
-  animation-name: conteudo;
-  animation-duration: 2s;
+  -webkit-animation-name: conteudo;
+  -webkit-animation-duration: 2s;
 }
 
 .cv-pic {
