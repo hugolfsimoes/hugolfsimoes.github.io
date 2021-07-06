@@ -219,7 +219,7 @@ body {
   margin-top: 30px;
 }
 
-@keyframes profile-capa {
+@-webkit-keyframes profile-capa {
   0% {
     opacity: 0;
     transform: translate(0px, 20px);
@@ -231,7 +231,7 @@ body {
   }
 }
 
-@keyframes titulo-capa {
+@-webkit-keyframes titulo-capa {
   0% {
     opacity: 0;
     transform: translate(0px, -20px);
@@ -243,7 +243,7 @@ body {
   }
 }
 
-@keyframes conteudo {
+@-webkit-keyframes conteudo {
   0% {
     opacity: 0;
     transform: translate(-20px, 0px);
@@ -255,7 +255,7 @@ body {
   }
 }
 
-@keyframes navegacao {
+@-webkit-keyframes navegacao {
   0% {
     opacity: 0;
   }
