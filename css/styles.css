@@ -48,6 +48,13 @@ body {
 
 .navigation li.threeline-icon {
   display: none;
+
+}
+
+.navigation li.threeline-icon:hover {
+  color: #f27609;
+  cursor: pointer;
+
 }
 
 .capa {
@@ -337,6 +344,24 @@ body {
 
   .blackbox {
     opacity: 0.8;
+  }
+
+  .menujs {
+    height: auto;
+  }
+
+  .menujs ul {
+    height: auto;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .menujs li {
+    display: block;
+    border-bottom: solid grey 1px;
+    width: 100%;
+    padding: 0;
   }
 
 }
